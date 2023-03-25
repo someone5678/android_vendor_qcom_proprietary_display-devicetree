@@ -21,7 +21,9 @@ dtbo-$(CONFIG_ARCH_WAIPIO) += display/waipio-sde.dtbo \
 		display/waipio-sde-display-waipio-lemur-cdp-overlay.dtbo \
 		display/waipio-sde-display-waipio-lemur-mtp-overlay.dtbo \
 		display/waipio-sde-display-rumi-overlay.dtbo \
-		display/diting-sde-display-mtp-overlay.dtbo
+		display/diting-sde-display-mtp-overlay.dtbo \
+		display/mondrian-sde-display-mtp-overlay.dtbo
+
 else
 dtbo-$(CONFIG_ARCH_WAIPIO) += display/trustedvm-waipio-sde-display-mtp-overlay.dtbo \
 		display/trustedvm-waipio-sde-display-cdp-overlay.dtbo \
@@ -38,7 +40,9 @@ dtbo-$(CONFIG_ARCH_CAPE) += display/cape-sde.dtbo \
 		display/cape-sde-display-mtp-120fps-overlay.dtbo \
 		display/cape-sde-display-mtp-nodisplay-overlay.dtbo \
 		display/cape-sde-display-qrd-overlay.dtbo \
-		display/diting-sde-display-mtp-overlay.dtbo
+		display/diting-sde-display-mtp-overlay.dtbo \
+		display/mondrian-sde-display-mtp-overlay.dtbo
+
 else
 dtbo-$(CONFIG_ARCH_CAPE) += display/trustedvm-cape-sde-display-qrd-overlay.dtbo
 endif
